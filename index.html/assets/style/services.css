@@ -1,0 +1,68 @@
+#services {
+    background: #F1F1F1;
+
+  }
+  
+  .services-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+  
+  .service-list {
+    display: flex;
+    gap: 24px;
+  }
+  
+  .service-heading {
+    text-align: center;
+  }
+  
+  .service-heading h2 {
+    font-size: 38px;
+    margin-bottom: 14px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .service-list {
+      display: flex;
+      gap: 24px;
+      flex-direction: column;
+    }
+  }
+  .cards { 
+    font-size:30%;
+  }
+  .lam { 
+    padding: 15px;
+  }
+  .bugatti img{ 
+    width:100%;
+    height: 500px;
+  }
+  #services1 {
+    background: #F1F1F1;
+    display: flex;
+    margin:60px;
+    
+    
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .service-list {
+      display: flex;
+      gap: 24px;
+      flex-direction: column;
+    }
+  }
+  .cards { 
+    font-size:30%;
+  }
+  .lam { 
+    padding: 15px;
+  }
+#services1 img{ 
+  height:410px;
+  width:100%;
+}
